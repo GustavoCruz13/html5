@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="get" action="">
+        <h1>Bem vindo a Cafeteria Nova Londres</h1>
+        <p>Vamos o fazer seu Pedido</p>
+        <br>
+        <h3>Café</h3>
+        <input type="radio" name="drink" value="cappuccino"> + Cappuccino <br>
+        <input type="radio" name="drink" value="achocolatado"> + achocolatado <br>
+        <input type="radio" name="drink" value="cafe com leite"> + Café com Leite <br>
+        <input type="radio" name="drink" value="achocolatado alpino"> + Achocolatado Alpino <br>
+        <hr />
+        <h3>Alimento</h3>
+        <input type="checkbox" value="pao de leite" name="alimento[]"> + Pão de Leite <br>
+        <input type="checkbox" value="pao" name="alimento[]"> + pao <br>
+        <input type="checkbox" value="pao chique" name="alimento[]"> + Pão Chique <br>
+        <input type="checkbox" value="bolo" name="alimento[]"> + Bolo <br>
+        <hr />
+        <h3>Doces</h3>
+        <select>
+            <option value="">Escolha o Doce</option>
+            <option value="Pudim">Pudim</option>
+            <option value="Mousse">Mousse</option>
+        </select>
+        <br>
+        <h2>Enviar Pedido</h2>
+        <label>Informe seu Email:</label>
+        <br>
+        <input type="email"> 
+        <br>
+        <input type="radio" name="client">Sou Cliente
+        <input type="radio" name="client">Não Sou Cliente
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
